@@ -1,58 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
 
 
-    <!-- bootstrap css-->
-    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+  <!-- bootstrap css-->
+  <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
 
-    <!-- main css -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- tailwind -->
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-        <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/9fcdb444fd.js" crossorigin="anonymous"></script>
+  <!-- main css -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- tailwind -->
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/9fcdb444fd.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header class="p-3 bg-dark text-white">
-        <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-              <img src="/assets/img/logo.png" class="bi me-2" width="100" height="100" role="img" aria-label="Bootstrap">
-            </a>
-    
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">FAQ</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Blog</a></li>
+  <header class="p-3 text-white" style="background-color: #011128;">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <img src="/assets/img/logo.png" class="bi me-2" width="234" role="img" aria-label="Bootstrap">
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">FAQ</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Blog</a></li>
+        </ul>
+
+        <a href="#" class="d-block link-dark text-decoration-none">
+          <img src="/assets/img/user.png" alt="mdo" width="40" height="40" class="rounded-circle">
+        </a>
+
+        <div class="text-end">
+          <a href="#"
+            style="background-color: #00AAFF; margin-left: 25px; padding: 15px 30px; border-radius: 15px; color: #fff;">Start
+            Now</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="hero-section"
+    style="height: 700px; background-image: url('/assets/img/hero-image.png'); background-repeat: no-repeat; background-position: center top; background-size: cover;">
+    <div class="container">
+      <div class="row">
+        <div class="col-6" style="display: table;">
+          <div style="display: table-cell;
+              vertical-align: middle; color: #fff;">
+            <h1 style="margin-bottom: 20px; font-size: 48px; font-weight: 500;">Online Payments</h1>
+            <h1 style="margin-bottom: 30px; font-size: 64px; color: #00AAFF; font-weight: 700;">Cryptocurrency</h1>
+            <p style="margin-bottom: 60px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#"
+              style="background-color: #00AAFF; padding: 20px 40px; border-radius: 15px; font-size: 20px ; color: #fff;">Get
+              Started <img style="padding-left: 10px" src="/assets/img/right-arrow.png"></a>
+          </div>
+
+        </div>
+
+        <div class="col-6">
+          <img src="/assets/img/queb.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="checkout" style="background-color: #000; height: 700px;">
+
+  </section>
+
+  <footer style="background-color: #011128; padding: 60px 0; color: #fff;">
+    <style>
+      footer ul li a {
+        color: #fff;
+      }
+
+      footer ul li a:hover {
+        color: #fff;
+      }
+
+      footer ul li {
+        list-style: inside;
+        padding: 7px 0;
+        
+      }
+
+      footer h5 {
+        margin-bottom: 25px;
+      }
+      footer .social ul li {
+        float: left;
+        list-style: none;
+        padding-right: 10px;
+      }
+    </style>
+    <div class="container">
+      <div class="row">
+        <div>
+          <img src="/assets/img/logo.png" style="margin-bottom: 60px; height: 40px;" >
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <p style="margin-bottom: 60px;">Safe, secure, & innovative crypto currency borrow & lending solutions.</p>
+
+          <div class="social">
+            <ul>
+              <li><a href=""><img width="30" src="/assets/img/facebook.png"></a></li>
+              <li><a href=""><img width="30" src="/assets/img/twitter.png"></a></li>
+              <li><a href=""><img width="30" src="/assets/img/pinterest.png"></a></li>
+              <li><a href=""><img width="30" src="/assets/img/youtube.png"></a></li>
+              <li><a href=""><img width="30" src="/assets/img/instagram.png"></a></li>
             </ul>
-    
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-              <input type="search" class="form-control form-control-dark text-white bg-dark" placeholder="Search..." aria-label="Search">
-            </form>
-    
-            <div class="text-end">
-              <button type="button" class="btn btn-outline-light me-2">Login</button>
-              <button type="button" class="btn btn-warning">Sign-up</button>
+          </div>
+        </div>
+
+        <div class="col-8">
+          <div class="row">
+            <div class="col-3">
+              <h5>Company</h5>
+              <div>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-3">
+              <h5>Support</h5>
+              <div>
+                <ul>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Knowledge Base</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-3">
+              <h5>Policy</h5>
+              <div>
+                <ul>
+                  <li><a href="#">Terms of use</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Refund Policy</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-3">
+              <h5>Contacts</h5>
+              <div>
+                <ul>
+                  <li><a href="#">admin@site.com</a></li>
+                  <li><a href="#">+1 111 111 111</a></li>
+                  <li><a href="#">+1 222 222 222</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </header>
+      </div>
+    </div>
+  </footer>
 
 
 
 
 
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
 </body>
+
 </html>
