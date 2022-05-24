@@ -1,3 +1,81 @@
-header {
-    color: #fff;
+
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+/* Global code */
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
 }
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: #222222;
+}
+
+.clr {
+  clear: both;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+img,
+ul,
+ol,
+li,
+input,
+form,
+.btn,
+.navbar,
+.breadcrumb,
+.pagination,
+iframe {
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  position: relative;
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0px;
+}
+/* Main code start from hear */
