@@ -1,4 +1,13 @@
-/* Sing -in css start */
+.pr-0 {
+  padding-right: 0 !important;
+}
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+/* 
+    Sing -in css start 
+*/
 
 .full-bg {
   background-color: rgba(0, 0, 0, 0);
@@ -11,66 +20,152 @@
   visibility: inherit;
 }
 .img-centered {
-    padding-top: 24px;
-    border-bottom: 1px solid rgba(196, 196, 196, 0.184);
-    padding-bottom: 16px;
+  padding-top: 24px;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.184);
+  padding-bottom: 16px;
 }
 
-.card-p{
-    width: 50%;
-    top: 25%;
-    left: 25%;
-    height: 50%;
-    background-color: #0F1A29;
+.card-p {
+  width: 42%;
+  top: 16%;
+  left: 31%;
+  height: 60%;
+  background-color: #0f1a29;
+  border-radius: 12px;
+  /* box-shadow: 0 6px 6px 0 rgb(255 255 255 / 12%), 0 10px 20px 0 rgb(255 255 255 / 30%); */
 }
 
-.header-img{
-    width: 24%;
-    position: relative;
-    margin-left: 40%;
+.header-img {
+  width: 43%;
+  position: relative;
+  margin-left: 28%;
+  padding-bottom: 6px;
 }
 
-.sing-in-form-header h3{
-    color: #fff;
+.sing-in-form-header h3 {
+  color: #fff;
 }
-.card-t{
-    padding-top: 20px;
-    font-size: 22px;
-    font-weight: 400;
+.card-t {
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: 400;
 }
-.card-s{
-    padding-top: 18px;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.font-color-s{
-    color: #C4C4C4 ;
+.card-s {
+  padding-top: 18px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-.pd-3{
-    padding-right: 3%;
-    padding-left: 3%;
+.font-color-s {
+  color: #c4c4c4;
 }
 
-.form-group label{
-    padding-top: 12px;
-    padding-bottom: 6px;
+.pd-3 {
+  padding-right: 4%;
+  padding-left: 4%;
 }
 
-.form-group input{
+.form-group label {
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+
+.form-group input {
+  border-radius: 10px;
+  border: 1px solid #00aaff;
+  height: 46px;
+  background-color: #0f1a29;
+  color: #ffffff;
+}
+.form-group input:focus {
+  height: 46px;
+  background-color: #0f1a29;
+  color: #ffffff;
+}
+
+.form-group a {
+  position: relative;
+  left: 70%;
+  color: #00aaff;
+}
+
+.checkmark {
+  position: relative;
+  top: 17px;
+  left: 0px;
+  width: 18px;
+}
+
+.for-la {
+}
+
+.custom-check {
+  margin-top: -12px;
+  padding-bottom: 6%;
+}
+
+.custom-btn {
+    padding-left: 45%;
+    padding-right: 46%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    background-color: #00aaff;
+    font-size: 20px;
+    font-weight: 500;
     border-radius: 10px;
-    border: 1px solid #00AAFF;
-    height: 46px;
-    background-color: #0F1A29;
-    color: #FFFFFF;
-}
-.form-group input:focus{
-    height: 46px;
-    background-color: #0F1A29;
-    color: #FFFFFF;
 }
 
+.custom-btn:hover {
+  background-color: #0093DD;
+  /* color: #ffffff; */
+  transition: 1.25s;
+}
+
+.footer-l {
+  text-align: center;
+  padding-top: 4%;
+}
+
+.footer-l a {
+  color: #00aaff;
+}
+.sign-pass-eye{
+  position: relative;
+  top: 40px;
+  left: 64%;
+  cursor: pointer;
+}
+
+/* 
+    Sing -Up css start 
+*/
+
+.singup-card {
+  height: 71%;
+}
+
+.singup-btn {
+    padding-right: 45%;
+    padding-left: 45%;
+}
+
+.singup-term {
+    color: #00aaff!important;
+    left: 1%!important;
+}
+.pass-eye {
+    position: relative;
+    top: 40px;
+    left: 66%;
+    cursor: pointer;
+}
+.con-pass-eye {
+    position: relative;
+    top: 40px;
+    left: 46%;
+    cursor: pointer;
+}
 
 
 
@@ -84,6 +179,152 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# This portion for mobile view.
+# Css starts here
+--------------------------------------------------------------*/
+
+@media only screen and (max-width: 428px) {
+  .card-p {
+    width: 90%;
+    top: 16%;
+    left: 5%;
+    height: 56%;
+}
+
+.header-img {
+  width: 58%;
+  margin-left: 22%;
+}
+
+.card-t {
+  font-size: 20px;
+}
+
+.card-s {
+  font-size: 12px;
+}
+
+.form-group label {
+  font-size: 12px;
+}
+
+.form-group input {
+  height: 42px;
+  font-size: 12px;
+}
+
+.form-group a {
+  left: 56%;
+  font-size: 12px;
+}
+
+.sign-pass-eye {
+  top: 36px;
+  left: 46%;
+}
+
+.checkmark {
+  top: 17px;
+  width: 15px;
+}
+.custom-check {
+  padding-bottom: 12%;
+}
+
+.custom-btn {
+  padding-left: 41%;
+  padding-right: 41%;
+}
+
+.font-color-s {
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 414px) {}
+
+@media only screen and (max-width: 393px) {}
+
+@media only screen and (max-width: 375px) {}
+
+@media only screen and (max-width: 320px) {}
+
+@media only screen and (max-width: 280px) {}
 
 
 

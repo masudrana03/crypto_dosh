@@ -37,7 +37,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 pr-0 pl-0">
                         <div class="sing-in-form">
                             <div class="sing-in-form-header">
                                 <h3 class="card-t">Welcome</h3>
@@ -46,23 +46,25 @@
                             <form action="">
                                 <div class="form-group">
                                     <label for="email" class="font-color-s">Email/Username</label>
-                                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                                    <input type="email" class="form-control" id="email" placeholder="Enter Email or Username">
                                 </div>
                                 <div class="form-group">
                                     <label for="password" class="font-color-s">Password</label>
-                                    <input type="password" class="form-control" id="password" placeholder="Password">
+                                    <a class="font-color-s for-la">Forget password?</a>
+                                    <img id="password-eye" class="sign-pass-eye eye" src="assets/images/svg/eye-close.svg" alt="Password Eye"/>
+                                    <input type="password" class="form-control eye-input" id="password" placeholder="Password">
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group custom-check">
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <input type="checkbox" class="custom-control-input checkmark" id="customCheck1">
                                         <label class="custom-control-label font-color-s" for="customCheck1">Remember me</label>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn custom-btn">Sign In</button>
                             </form>
                         </div>
                         <div class="footer-l">
-                            <p class="font-color-s">New on our platform? <a href="">Create an account</a></p>
+                            <p class="font-color-s">New on our platform?&nbsp; <a href="sing-up.html"> Create an account</a></p>
                         </div>
                     </div>
                 </div>
