@@ -1,3 +1,5 @@
+/* == Some common css == */
+
 .pr-0 {
   padding-right: 0 !important;
 }
@@ -5,9 +7,7 @@
   padding-left: 0 !important;
 }
 
-/* 
-    Sing -in css start 
-*/
+/* == Sign -in css start == */
 
 .full-bg {
   background-color: rgba(0, 0, 0, 0);
@@ -19,6 +19,7 @@
   height: 100vh;
   visibility: inherit;
 }
+
 .img-centered {
   padding-top: 24px;
   border-bottom: 1px solid rgba(196, 196, 196, 0.184);
@@ -105,19 +106,19 @@
 }
 
 .custom-btn {
-    padding-left: 45%;
-    padding-right: 46%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: #ffffff;
-    background-color: #00aaff;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 10px;
+  padding-left: 45%;
+  padding-right: 46%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  background-color: #00aaff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
 }
 
 .custom-btn:hover {
-  background-color: #0093DD;
+  background-color: #0093dd;
   /* color: #ffffff; */
   transition: 1.25s;
 }
@@ -130,209 +131,399 @@
 .footer-l a {
   color: #00aaff;
 }
-.sign-pass-eye{
+.sign-pass-eye {
   position: relative;
   top: 40px;
   left: 64%;
   cursor: pointer;
 }
 
-/* 
-    Sing -Up css start 
-*/
+/* == Sign -Up css start == */
 
 .singup-card {
   height: 71%;
 }
 
 .singup-btn {
-    padding-right: 45%;
-    padding-left: 45%;
+  padding-right: 44%;
+  padding-left: 44%;
+  margin-top: -10px;
 }
 
 .singup-term {
-    color: #00aaff!important;
-    left: 1%!important;
+  color: #00aaff !important;
+  left: 1% !important;
 }
+
 .pass-eye {
-    position: relative;
-    top: 40px;
-    left: 66%;
-    cursor: pointer;
+  position: relative;
+  cursor: pointer;
+  top: 40px;
+  left: auto;
+  right: -58%;
 }
+
 .con-pass-eye {
-    position: relative;
-    top: 40px;
-    left: 46%;
-    cursor: pointer;
+  position: relative;
+  cursor: pointer;
+  top: 40px;
+  left: auto;
+  right: -40%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sig-fo {
+  padding-top: 2%;
+}
+.sig-fo p {
+  padding-top: 2%;
+}
 
 /*--------------------------------------------------------------
 # This portion for mobile view.
 # Css starts here
 --------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+  /* == sign-in page == */
+
+  .card-s {
+    font-size: 13px;
+  }
+
+  .card-p {
+    width: 54%;
+    top: 16%;
+    left: 24%;
+    height: 60%;
+  }
+
+  .card-t {
+    font-size: 20px;
+  }
+
+  .sign-pass-eye {
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+    right: -30%;
+    left: auto;
+  }
+
+  .form-group a {
+    left: auto;
+    right: -42%;
+  }
+
+  .custom-btn {
+    padding-left: 42%;
+    padding-right: 42%;
+    font-size: 18px;
+  }
+}
 
 @media only screen and (max-width: 428px) {
+  /* == sign in page == */
   .card-p {
     width: 90%;
     top: 16%;
     left: 5%;
     height: 56%;
+  }
+
+  .header-img {
+    width: 58%;
+    margin-left: 22%;
+  }
+
+  .card-t {
+    font-size: 20px;
+  }
+
+  .card-s {
+    font-size: 12px;
+  }
+
+  .form-group label {
+    font-size: 12px;
+  }
+
+  .form-group input {
+    height: 42px;
+    font-size: 12px;
+  }
+
+  .form-group a {
+    left: 56%;
+    font-size: 12px;
+  }
+
+  .sign-pass-eye {
+    top: 36px;
+    left: 46%;
+  }
+
+  .checkmark {
+    top: 17px;
+    width: 15px;
+  }
+  .custom-check {
+    padding-bottom: 12%;
+  }
+
+  .custom-btn {
+    padding-left: 41%;
+    padding-right: 41%;
+  }
+
+  .font-color-s {
+    font-size: 12px;
+  }
+
+  /* == sign up page == */
+
+  .singup-card {
+    width: 90% !important;
+    top: 8% !important;
+    left: 5% !important;
+    height: 86% !important;
+  }
+
+  .pass-eye {
+    position: relative;
+    top: 38px;
+    left: auto;
+    cursor: pointer;
+    right: -72%;
+  }
+
+  .con-pass-eye {
+    position: relative;
+    top: 38px;
+    left: auto;
+    cursor: pointer;
+    right: -59%;
+  }
+
+  .sig-fo {
+    margin-top: -8%;
+  }
+
+  .sig-fo p {
+    padding-top: 8%;
+  }
+
+  .singup-btn {
+    padding-right: 40%;
+    padding-left: 40%;
+    margin-top: -10px;
+  }
 }
 
-.header-img {
-  width: 58%;
-  margin-left: 22%;
+@media only screen and (max-width: 414px) {
+  /* == sign in page == */
+
+  .card-p {
+    height: 66%;
+  }
+
+  /* == sign up page == */
+  .sing-up-img {
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 20%;
+  }
+
+  .singup-card {
+    padding-bottom: 15px;
+  }
 }
 
-.card-t {
-  font-size: 20px;
+@media only screen and (max-width: 393px) {
+  /* == sign in page == */
+
+  .card-p {
+    width: 90%;
+    top: 16%;
+    left: 5%;
+    height: 60%;
+  }
+
+  .sign-pass-eye {
+    top: 36px;
+    left: 43%;
+  }
+
+  .form-group a {
+    left: 52%;
+    font-size: 12px;
+  }
+
+  .custom-btn {
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  /* == sign in page == */
+  .singup-card {
+    width: 90% !important;
+    top: 1.5% !important;
+    left: 5% !important;
+    height: 97% !important;
+  }
+  .con-pass-eye {
+    right: -58%;
+  }
 }
 
-.card-s {
-  font-size: 12px;
+@media only screen and (max-width: 375px) {
+  /* == sign in page == */
+
+  .card-p {
+    width: 90%;
+    top: 16%;
+    left: 5%;
+    height: 70%;
+  }
+  .form-group a {
+    left: 48%;
+    font-size: 12px;
+  }
+
+  .sign-pass-eye {
+    top: 36px;
+    left: 38%;
+  }
+
+  .custom-btn {
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+  }
+  /* == sign in page == */
+
+  .con-pass-eye {
+    right: -52%;
+  }
+
+  .pass-eye {
+    right: -67%;
+  }
+
+  .singup-btn {
+    font-size: 16px;
+  }
 }
 
-.form-group label {
-  font-size: 12px;
+@media only screen and (max-width: 320px) {
+  /* == sign in page == */
+  .card-p {
+    width: 90%;
+    top: 8%;
+    height: 90%;
+  }
+
+  .sing-in-img {
+    padding-bottom: 20%;
+  }
+
+  .card-t {
+    font-size: 16px;
+  }
+
+  .font-color-s {
+    font-size: 10px;
+  }
+
+  .form-group a {
+    left: auto;
+    font-size: 12px;
+    right: -40%;
+  }
+  .sign-pass-eye {
+    top: 36px;
+    left: auto;
+  }
+
+  .custom-btn {
+    font-size: 16px;
+  }
+
+  /* == sign in page == */
+  .sing-up-custom label {
+    font-size: 10px !important;
+  }
+
+  .sing-up-custom a {
+    font-size: 10px !important;
+  }
+
+  .su-check {
+    top: 17px;
+    width: 12px;
+  }
+
+  .singup-btn {
+    font-size: 14px;
+  }
 }
 
-.form-group input {
-  height: 42px;
-  font-size: 12px;
+@media only screen and (max-width: 280px) {
+  /* == sign in page == */
+
+  .card-p {
+    height: 70%;
+  }
+
+  .card-t {
+    font-size: 14px;
+  }
+
+  .font-color-s {
+    font-size: 8px;
+  }
+
+  .form-group label {
+    font-size: 10px;
+  }
+
+  .form-group input {
+    height: 38px;
+    font-size: 10px;
+  }
+
+  .form-group a {
+    left: auto;
+    font-size: 10px;
+    right: -42%;
+  }
+
+  .sign-pass-eye {
+    top: 32px;
+    left: auto;
+    right: -28%;
+  }
+
+  .custom-btn {
+    padding-left: 39%;
+    padding-right: 39%;
+    font-size: 16px;
+  }
+
+  /* == sign in page == */
+  .singup-btn {
+    font-size: 14px;
+  }
+
+  .si-up-eye {
+    top: 35px;
+    right: -64%;
+  }
+
+  .si-up-eye0 {
+    top: 35px;
+    right: -47%;
+  }
 }
-
-.form-group a {
-  left: 56%;
-  font-size: 12px;
-}
-
-.sign-pass-eye {
-  top: 36px;
-  left: 46%;
-}
-
-.checkmark {
-  top: 17px;
-  width: 15px;
-}
-.custom-check {
-  padding-bottom: 12%;
-}
-
-.custom-btn {
-  padding-left: 41%;
-  padding-right: 41%;
-}
-
-.font-color-s {
-  font-size: 12px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-@media only screen and (max-width: 414px) {}
-
-@media only screen and (max-width: 393px) {}
-
-@media only screen and (max-width: 375px) {}
-
-@media only screen and (max-width: 320px) {}
-
-@media only screen and (max-width: 280px) {}
-
-
-
-
-
-
-
-
-
-
-
