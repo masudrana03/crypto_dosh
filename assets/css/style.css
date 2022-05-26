@@ -422,12 +422,14 @@
   .card-p {
     width: 90%;
     top: 8%;
-    height: 90%;
-  }
+    height: 450px;
+}
 
   .sing-in-img {
     padding-bottom: 20%;
-  }
+    height: auto;
+    padding-top: 10%;
+}
 
   .card-t {
     font-size: 16px;
@@ -477,6 +479,12 @@
     height: 70%;
   }
 
+  .sing-in-img {
+    padding-bottom: 20%;
+    height: 100vh;
+    padding-top: 0;
+}
+
   .card-t {
     font-size: 14px;
   }
@@ -492,6 +500,7 @@
   .form-group input {
     height: 38px;
     font-size: 10px;
+    top: 15px;
   }
 
   .form-group a {
@@ -525,6 +534,10 @@
   .si-up-eye0 {
     top: 35px;
     right: -47%;
+  }
+
+  .checkmark {
+    width: 12px;
   }
 }
 
