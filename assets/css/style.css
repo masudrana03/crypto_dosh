@@ -186,6 +186,12 @@
   padding-top: 2%;
 }
 
+/* == Index page css start == */
+
+.mobile-dis {
+  display: none !important;
+}
+
 /*--------------------------------------------------------------
 # This portion for mobile view.
 # Css starts here
@@ -324,6 +330,127 @@
     padding-left: 40%;
     margin-top: -10px;
   }
+
+  /* == Index page == */
+
+  .width-zero {
+    width: 0% !important;
+  }
+
+  .mobile-dis {
+    display: block !important;
+    padding-top: 18px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .index-nav {
+    display: none !important;
+  }
+
+  .mobile-btn-i a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    left: 70%;
+    top: 15px;
+  }
+
+  .mobile-head-img {
+    width: 74%;
+  }
+
+  .mb-side-ber .navbar-toggler {
+    color: #fff !important;
+    background-color: #0f1a29 !important;
+    border-color: #a0a0a0 !important;
+    padding: 4px 6px 4px 8px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.08rem !important;
+  }
+
+  .burger-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  .burger-icon > span.burger-icon-top {
+    top: 2px;
+  }
+
+  .burger-icon > span.burger-icon-mid {
+    top: 9px;
+    width: 66%;
+  }
+  .burger-icon > span.burger-icon-bottom {
+    bottom: 2px;
+    width: 33%;
+  }
+
+  .burger-icon > span {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+  }
+
+  .burger-icon.burger-icon-white > span::before,
+  .burger-icon.burger-icon-white > span::after {
+    background-color: #a0a0a0;
+  }
+  .burger-icon > span::before,
+  .burger-icon > span::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #333;
+  }
+
+  .burger-icon > span::before,
+  .burger-icon > span::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #333;
+  }
+
+  .drop-a {
+    padding-top: 15px;
+  }
+
+  .drop-a a {
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 8px;
+    margin-left: -4%;
+  }
+
+  .nav-active {
+    background: linear-gradient(
+      90.16deg,
+      rgba(255, 255, 255, 0.8) 4.56%,
+      rgba(0, 170, 255, 0.5) 99.87%
+    );
+    padding: 1px;
+    width: 12%;
+    border-radius: 50%;
+  }
 }
 
 @media only screen and (max-width: 414px) {
@@ -342,6 +469,11 @@
 
   .singup-card {
     padding-bottom: 15px;
+  }
+
+  /* == Index page == */
+  .mobile-btn-i a {
+    font-size: 8px;
   }
 }
 
@@ -431,13 +563,13 @@
     width: 90%;
     top: 8%;
     height: 450px;
-}
+  }
 
   .sing-in-img {
     padding-bottom: 20%;
     height: auto;
     padding-top: 10%;
-}
+  }
 
   .card-t {
     font-size: 16px;
@@ -491,7 +623,7 @@
     padding-bottom: 20%;
     height: 100vh;
     padding-top: 0;
-}
+  }
 
   .card-t {
     font-size: 14px;
@@ -548,8 +680,6 @@
     width: 12px;
   }
 }
-
-
 
 /* 
 
