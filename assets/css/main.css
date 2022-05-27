@@ -88,6 +88,16 @@ header {
   background-color: #011128;
 }
 
+header .logo{
+  margin-right: 40px;
+}
+
+
+header ul li{
+  padding: 0 15px;
+}
+
+
 .nav-active {
   background: linear-gradient(90.16deg, rgba(255, 255, 255, 0.8) 4.56%, rgba(0, 170, 255, 0.5) 99.87%);
   padding: 1px;
@@ -98,8 +108,8 @@ header {
 .header-right a {
   background-color: #00AAFF;
   margin-left: 25px;
-  padding: 15px 30px;
-  border-radius: 15px;
+  padding: 18px 36px;
+  border-radius: 20px;
   color: #fff;
   text-decoration: none;
 }
@@ -190,6 +200,20 @@ header {
   padding: 1px;
   width: 300px;
   border-radius: 50%;
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+}
+
+.checkout-line {
+  margin: 15px 0;
+  background: linear-gradient(90.16deg, rgba(255, 255, 255, 0.8) 4.56%, rgba(0, 170, 255, 0.5) 99.87%);
+  padding: 1px;
+  width: 180px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  bottom: -15px;
 }
 
 #bit-coin {
@@ -422,6 +446,45 @@ footer .social ul li {
 
   .checkout-img {
     text-align: center;
+  }
+
+  .checkout-r {
+    text-align: center;
+  }
+
+  .checkout-line {
+    left: 28%;
+
+  }
+
+  .checkout-r .p1 {
+    margin-top: 30px;
+  }
+
+  .checkout-r a {
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+
+  .feature-l {
+    text-align: center;
+  }
+
+  .checkout-r h1 {
+    font-size: 36px;
+  }
+
+  .feature-l h1 {
+    font-size: 36px;
+  }
+
+  .feature-line {
+    left: 11%;
+    bottom: -24px;
+  }
+
+  .feature-l .p1 {
+    margin-top: 30px;
   }
 }
 

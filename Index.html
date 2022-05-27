@@ -18,10 +18,10 @@
 </head>
 
 <body>
-  <header class="p-3 text-white">
+  <header class="p-4 text-white fixed-top">
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+        <a href="/" class="logo d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
           <img src="/assets/img/logo.png" class="bi me-2" width="234" role="img" aria-label="Bootstrap">
         </a>
 
@@ -85,8 +85,9 @@
           <div class="checkout-r">
 
             <h3>In-app</h3>
-            <h1>Checkout</h1>
-            <p style="margin-bottom: 80px;">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+            <h1 style="position: relative;">Checkout <span class="checkout-line"></span></h1>
+            
+            <p class="p1" style="margin-bottom: 80px;">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
               roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
 
             <p style="color: #A0A0A0; margin-bottom: 50px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -107,10 +108,9 @@
       <div class="row">
         <div class="row">
           <div class="col-md-6 col-sm-12 feature-l" style="margin-bottom: 60px">
-            <h1>Powerful Features</h1>
-            <div class="feature-line">
-            </div>
-            <p style="color: #C4C4C4;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            <h1 style="position: relative;">Powerful Features<div class="feature-line"></div></h1>
+            
+            <p class="p1" style="color: #C4C4C4;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. </p>
           </div>
         </div>
@@ -268,15 +268,15 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-8 offset-2">
+        <div class="col-md-8 offset-md-2">
           <div class="card-body" style="background-color: #141414; padding: 60px;">
 
             <div class="row">
-              <div class="col-10 offset-1">
+              <div class="col-md-10 offset-md-1">
                 <div class="row">
 
 
-                  <div class="col-6">
+                  <div class="col-md-6 col-sm-12">
                     <div class="card-body"
                       style="background: #3C1BD1; text-align: center; border-radius: 10px; position: relative;">
                       <h6>Personal User</h6>
@@ -288,7 +288,7 @@
                     </div>
                   </div>
 
-                  <div class="col-6">
+                  <div class="col-md-6 col-sm-12">
                     <div class="card-body"
                       style="background: #00AAFF; text-align: center; border-radius: 10px; position: relative;">
                       <h6>Client Traders</h6>
@@ -308,7 +308,7 @@
       </div>
 
       <div class="row">
-        <div class="col-6 offset-3">
+        <div class="col-md-6 offset-md-3 col-sm-12">
           <div style="padding: 60px; text-align: center;">
             <h1 style="margin-bottom: 30px; font-size: 48px; font-weight: 700;">Smart Wallet</h1>
             <p style="margin-bottom: 80px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
