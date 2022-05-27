@@ -97,6 +97,14 @@
   width: 18px;
 }
 
+/* input[type=checkbox] {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  cursor: pointer;
+  font-size: 27px;
+} */
+
 .for-la {
 }
 
