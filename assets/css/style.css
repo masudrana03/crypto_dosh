@@ -192,6 +192,21 @@
   display: none !important;
 }
 
+/* some css */
+.section-tittle {
+  font-size: 34px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(
+    360deg,
+    rgb(255 255 255) 4.56%,
+    rgb(0 170 255 / 54%) 99.87%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 12px;
+  position: relative;
+}
+
 /*--------------------------------------------------------------
 # This portion for mobile view.
 # Css starts here
@@ -451,6 +466,175 @@
     width: 12%;
     border-radius: 50%;
   }
+
+  /* == Index page checkout portion == */
+  #checkout {
+    display: none;
+  }
+
+  #checkout-mobile {
+    display: block !important;
+    background-color: #03080b;
+    padding-top: 12px;
+    margin-top: -2px;
+  }
+
+  .chek-mb-head {
+    text-align: center;
+  }
+
+  .chek-mb-head h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* 
+  .chek-mb-head h2 {
+    font-size: 34px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(
+      360deg,
+      rgb(255 255 255) 4.56%,
+      rgb(0 170 255 / 54%) 99.87%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 12px;
+  } */
+  .chek-mb-head .section-tittle {
+    font-size: 34px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(
+      360deg,
+      rgb(255 255 255) 4.56%,
+      rgb(0 170 255 / 54%) 99.87%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 12px;
+    position: relative;
+  }
+
+  .checkout-line {
+    width: 142px;
+    left: 33%;
+  }
+
+  .chek-mb-head p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #a0a0a0;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .check-mb-body {
+    margin-top: -16%;
+  }
+  .check-mb-body img {
+    width: 84%;
+    height: auto;
+    margin-left: 8%;
+    padding-top: 30px;
+  }
+
+  .check-mb-footer {
+    padding-top: 10px;
+    padding-bottom: 15%;
+    text-align: center;
+  }
+
+  .check-mb-footer p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #a0a0a0;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+  }
+
+  .check-mb-footer a {
+    background-color: #00aaff;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 20px;
+    font-size: 10px;
+  }
+
+  .check-mb-footer i {
+    margin-left: 4px;
+  }
+
+  /* == Index page Powerful Features portion == */
+
+  #feature {
+    display: none;
+  }
+
+  #features-mb-view {
+    display: block;
+    background-color: #03080b;
+    padding-top: 12px;
+    padding-bottom: 10%;
+    margin-top: -2px;
+  }
+  .features-mb-head {
+    text-align: center;
+  }
+
+  .features-mb-head .section-tittle {
+    background: -webkit-linear-gradient(
+      360deg,
+      rgb(255 255 255) 4.56%,
+      rgb(0 170 255 / 54%) 99.87%
+    );
+    -webkit-background-clip: text;
+  }
+
+  .features-mb-head .checkout-line {
+    width: 170px;
+    left: 30%;
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.8) 4.56%,
+      rgba(0, 170, 255, 0.5) 99.87%
+    );
+  }
+
+  .features-mb-head p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #a0a0a0;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* == Index page Powerful Features portion End == */
 }
 
 @media only screen and (max-width: 414px) {
