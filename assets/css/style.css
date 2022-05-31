@@ -211,6 +211,24 @@
   display: none;
 }
 
+/* breake portion common css */
+#break-mb {
+  display: none;
+}
+
+/* our partner */
+#partner-mb {
+  display: none;
+}
+/* our partner */
+#wallet-mb {
+  display: none;
+}
+
+#footer-mb{
+  display: none;
+}
+
 /*--------------------------------------------------------------
 # This portion for mobile view.
 # Css starts here
@@ -706,7 +724,7 @@
   .Notification-card-bd h4 {
     font-size: 14px;
     font-weight: 700;
-    color: #3C1BD1;
+    color: #3c1bd1;
   }
   .Notification-card-bd p {
     font-size: 10px;
@@ -714,47 +732,48 @@
     color: #011128;
   }
 
-  .bit-mb-con{
+  .bit-mb-con {
     text-align: center;
   }
 
-  .bit-mb-con h3{
+  .bit-mb-con h3 {
     font-size: 16px;
     color: #ededed;
     padding-bottom: 12px;
     padding-top: 5%;
   }
 
-  .bit-mb-con .section-tittle{
+  .bit-mb-con .section-tittle {
     font-size: 30px;
   }
 
-  
   .bit-mb-con .checkout-line {
     width: 210px;
     left: 25%;
-    background: linear-gradient(270deg, rgba(255, 255, 255, 0.8) 4.56%, rgba(0, 170, 255, 0.5) 99.87%);
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.8) 4.56%,
+      rgba(0, 170, 255, 0.5) 99.87%
+    );
   }
 
-  .bit-mb-con h4{
+  .bit-mb-con h4 {
     font-size: 14px;
     color: #ededed;
     padding-bottom: 10px;
     padding-top: 16px;
   }
 
-  .bit-mb-con p{
+  .bit-mb-con p {
     font-size: 10px;
     color: #a0a0a0;
-    padding-bottom: 10px;
     padding-left: 13%;
     padding-right: 13%;
     font-weight: 400;
     padding-bottom: 8%;
-  } 
-  
-  
-  .bit-mb-con a{
+  }
+
+  .bit-mb-con a {
     background-color: #00aaff;
     color: #fff;
     padding-left: 20px;
@@ -765,20 +784,305 @@
     font-size: 10px;
   }
 
+  /* == Index page Take a Break portion Start == */
+  #break {
+    display: none;
+  }
+  #break-mb {
+    display: block;
+    background-color: #000000;
+    margin-top: -2px;
+    padding-bottom: 10%;
+    padding-top: 6%;
+  }
+
+  .break-mb-tittle {
+    text-align: center;
+  }
+
+  .break-mb-tittle .section-tittle {
+    padding-bottom: 5px;
+  }
+
+  .break-mb-tittle h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #eaeaea;
+    padding-bottom: 12px;
+  }
+
+  .break-mb-tittle p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #a0a0a0;
+    padding-bottom: 4%;
+    padding-right: 12%;
+    padding-left: 12%;
+  }
+
+  .break-card {
+    width: 60%;
+    height: 25%;
+    left: 20%;
+    padding-left: 10px;
+    justify-content: center;
+    top: -20%;
+    border-radius: 10px;
+  }
+
+  .break-card-bd {
+    position: absolute;
+    padding-left: 26%;
+  }
+
+  .break-card img {
+    width: 20%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .break-card h5 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #000000;
+  }
+
+  .break-card h4 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #000000;
+  }
+
+  .break-card p {
+    font-size: 10px;
+    font-weight: 400;
+    color: #5c5c5c;
+  }
+
+  .break-mb-footer {
+    text-align: center;
+  }
+
+  .break-mb-footer p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #a0a0a0;
+    padding-bottom: 4%;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .break-mb-footer a {
+    background-color: #00aaff;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 20px;
+    font-size: 10px;
+  }
+
+  /* == Index page Our Part partner Start == */
+
+  #partner {
+    display: none;
+  }
+
+  #partner-mb {
+    display: block;
+    background-color: #000000;
+    margin-top: -2px;
+    padding-bottom: 10%;
+    padding-top: 2%;
+  }
+
+  .partner-head h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #eaeaea;
+    padding-bottom: 6px;
+  }
+
+  .partner-head h6 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #eaeaea;
+    padding-bottom: 20px;
+  }
+
+  /* == Index page wallet portion EndEnd == */
+
+  #wallet {
+    display: none;
+  }
+
+  #wallet-mb {
+    display: block;
+    background: -webkit-linear-gradient(270deg, rgb(0 0 0) 0%, #011128 100%);
+    margin-top: -2px;
+    padding-bottom: 10%;
+    padding-top: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .wallet-mb-card {
+    background-color: #131b26;
+    border-radius: 10px;
+    
+  }
+  .wallet-card-body {
+    
+  }
+
+  .wallet-card-body h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 12px;
+    text-align: center;
+  }
+  .wallet-card-body img {
+    padding-bottom: 14px;
+  }
+  .wallet-card-body p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 5px;
+  }
+  .wallet-card-body h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #c6c6c6;
+    padding-bottom: 8px;
+  }
+
+  .wallet-mb-footer{
+    text-align: center;
+  }
+  .wallet-mb-footer h2 {
+    font-size: 34px;
+    font-weight: 900;
+    color: #dddddd;
+    padding-bottom: 8%;
+    padding-top: 8%;
+  }
+  .wallet-mb-footer p {
+    font-size: 12px;
+    color: #a0a0a0;
+    font-weight: 400;
+    padding-bottom: 8%;
+  }
+  .wallet-mb-footer a {
+    background-color: #00aaff;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 20px;
+    font-size: 10px;
+  }
+
+  /* == Index page Main Footer == */
+
+  #main-footer {
+    display: none;
+  }
 
 
+  #footer-mb {
+    display: block;
+    margin-top: -2px;
+    
+  }
 
+  .footer-logo {
+    text-align: center;
+  }
 
+  .footer-logo img {
+    margin-top: -26px;
+    width: 60%;
+    padding-bottom: 12px;
+  }
+  
+  .footer-logo p {
+    font-size: 12px;
+    color: #a0a0a0;
+    font-weight: 400;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
 
+  .footer-social{
+    padding-left: 28%;
+    padding-bottom: 14%;
+    padding-top: 4%;
+  }
 
+  .footer-social ul li{
+    text-align: center;
+    float: left;
+    list-style: none;
+    padding-right: 10px;
+  }
+  .footer-line{
+    width: 85%;
+    left: 8%;
+    background-color: #6c6c6c;
+    padding-top: 0.1px;
+    position: absolute;
 
+  }
 
+  .custom-cd {
+    padding-left: 36%;
+    padding-top: 20%;
+  }
+  
+  .custom-cd h5{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
 
+  }
+  
+  .custom-cd ul li {
+    font-size: 12px;
+    font-weight: 400;
+    color: #C4C4C4;
+  } 
+  
+  
+  .custom-cd2 {
+    padding-left: 8%;
+    padding-top: 21%;
+  }
+  
+  .custom-cd2 h5{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
 
+  }
+  
+  .custom-cd2 ul li {
+    font-size: 12px;
+    font-weight: 400;
+    color: #C4C4C4;
+  }
 
+  .copytight p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #a0a0a0;
+  }
+  
 
-
-  /* == Index page when doing Payments portion EndEnd == */
+  /* == Index page wallet portion EndEnd == */
 }
 
 @media only screen and (max-width: 414px) {
@@ -803,6 +1107,26 @@
   .mobile-btn-i a {
     font-size: 8px;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 @media only screen and (max-width: 393px) {
